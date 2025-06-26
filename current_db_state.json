@@ -1,0 +1,368 @@
+{
+  "users": [
+    {
+      "username": "Admin1",
+      "email": "Admin1@example.com",
+      "password_hash": "scrypt:32768:8:1$3kHA80AbQpGPjTTu$a15dc70c149199dfc1eaef87a5f52e1a0ce9460f93cd06f07f40c31ff2a0faea18e72beb8ec2cf94544517276b954628c573c4a65dc57f4d8cda05e12f9f5a31",
+      "role": "admin",
+      "address": null,
+      "phone": null,
+      "created_at": "2025-06-25T10:36:05.578288"
+    },
+    {
+      "username": "joe_blogs",
+      "email": "joe.blogs@example.com",
+      "password_hash": "scrypt:32768:8:1$za7K8qMnSv1ZBXic$a0fbc7bd31e65137f9714f7d6a5c9b05455e568288bb782620fe2f5750ed9429087f593b121d136d8ef3db0b8e7597574c784af7c402d37660e5db26eb4573fd",
+      "role": "regular",
+      "address": null,
+      "phone": null,
+      "created_at": "2025-06-26T08:25:15.868044"
+    },
+    {
+      "username": "bob123",
+      "email": "bob@example.com",
+      "password_hash": "scrypt:32768:8:1$S7GjezXvjINGBKx5$aa1f5540a6fc0af8c2f5a67f86a4e1ca486baee390f3e3ccf12cfdd868800d1c5f729b13cf28a57cb4e71355273fc34558e79b8485f4193de170c71d7aa3c6bd",
+      "role": "regular",
+      "address": null,
+      "phone": null,
+      "created_at": "2025-06-26T08:25:36.424274"
+    },
+    {
+      "username": "steve",
+      "email": "steve@example.com",
+      "password_hash": "scrypt:32768:8:1$Y4vid4sRbyzfvoaZ$c98db8838d67bc39f943f8292634ea015c921993cc0b24cba42b5f632e8c15aaa1117744de49054491224cd3dee5ecbf75800a648440700d3592d322c7422888",
+      "role": "regular",
+      "address": null,
+      "phone": null,
+      "created_at": "2025-06-26T08:26:02.534706"
+    },
+    {
+      "username": "admin2",
+      "email": "admin2@example.com",
+      "password_hash": "scrypt:32768:8:1$wshRrxk2B5cjcxzB$19612d4b027f6cf606de64e26b12fba335230aef5806f3eb65b0b0db937cac14f7cbc3a6a6ef0a1c835fe83b3579a38298523be1cf9bc4976d8afd0728d6c2b1",
+      "role": "admin",
+      "address": null,
+      "phone": null,
+      "created_at": "2025-06-26T08:26:22.509159"
+    },
+    {
+      "username": "harry2",
+      "email": "harry@example.com",
+      "password_hash": "scrypt:32768:8:1$9QRwUtwewRORuqd5$113abff6957c51e1ae6daf544843914ac53a72aa65bf5bbd2792914fd5cf45477c6c27f458542107e93a858c5dbaf0b998e390c50b5505ecb1fe75bf54204db3",
+      "role": "regular",
+      "address": null,
+      "phone": null,
+      "created_at": "2025-06-26T08:27:26.010548"
+    },
+    {
+      "username": "clive202",
+      "email": "clive@example.com",
+      "password_hash": "scrypt:32768:8:1$CWvlWVaQlffj3KJR$b8848c4f1e6bc5ba18ebd43d72aa0584c9e7117ff71c31f609b8284e40bbbfa9b4d183b0a85e5dae3d13a1e9e61c4f4e47de68995b64d73bc397f34810e6fcae",
+      "role": "regular",
+      "address": null,
+      "phone": null,
+      "created_at": "2025-06-26T08:27:52.250788"
+    },
+    {
+      "username": "will",
+      "email": "will@example.com",
+      "password_hash": "scrypt:32768:8:1$nWNuIP8X07N9310y$5541a4a1145965ae941e5ea49055315f27e96681b3b8964b57210b8790f5933c633ade64a39fad8fef6379d1126055b7b00e306c73bbcba3a42e3a529dd4e36a",
+      "role": "admin",
+      "address": null,
+      "phone": null,
+      "created_at": "2025-06-26T08:29:06.282013"
+    },
+    {
+      "username": "cayla",
+      "email": "cayla@example.com",
+      "password_hash": "scrypt:32768:8:1$AdFaPKNToamX8KZ5$8b1747af97909cf4680f1b5f5503137f7a88093871261563947b387b4ea85a0c7eaecb1fe0382ae540df1b13556eac2229895fafc558a5dfca718b8b4b5253dd",
+      "role": "regular",
+      "address": null,
+      "phone": null,
+      "created_at": "2025-06-26T08:31:28.878882"
+    }
+  ],
+  "quotes": [
+    {
+      "reference_number": "AA-f458ea3d",
+      "customer_name": "bob jones",
+      "vehicle_registration": "rk71 wdp",
+      "postcode": "RG24 8BH",
+      "start_date": "2025-06-26T08:29:39.516490",
+      "created_by": 8,
+      "customer_user_id": null,
+      "created_at": "2025-06-26T08:29:39.516661",
+      "status": "accepted",
+      "cover_type": "Roadside,HomeStart",
+      "annual_total": 69.55,
+      "monthly_total": 6.25
+    },
+    {
+      "reference_number": "AA-f0b6980b",
+      "customer_name": "steve muck",
+      "vehicle_registration": "rk11 rym",
+      "postcode": "rg22 4re",
+      "start_date": "2025-06-26T08:30:09.103880",
+      "created_by": 8,
+      "customer_user_id": null,
+      "created_at": "2025-06-26T08:30:09.104119",
+      "status": "pending",
+      "cover_type": "Relay,PartsCover",
+      "annual_total": 88.42,
+      "monthly_total": 7.47
+    },
+    {
+      "reference_number": "AA-054e774a",
+      "customer_name": "kim play",
+      "vehicle_registration": "RE16 ZCN",
+      "postcode": "rg21 4re",
+      "start_date": "2025-06-26T08:30:37.252128",
+      "created_by": 8,
+      "customer_user_id": null,
+      "created_at": "2025-06-26T08:30:37.252393",
+      "status": "pending",
+      "cover_type": "Roadside",
+      "annual_total": 45.7,
+      "monthly_total": 3.93
+    },
+    {
+      "reference_number": "AA-64d74413",
+      "customer_name": "cayla smith",
+      "vehicle_registration": "dp11 bco",
+      "postcode": "rg24 7as",
+      "start_date": "2025-06-26T08:32:09.723248",
+      "created_by": 9,
+      "customer_user_id": null,
+      "created_at": "2025-06-26T08:32:09.723444",
+      "status": "pending",
+      "cover_type": "Roadside,Relay,HomeStart,PartsCover",
+      "annual_total": 158.71,
+      "monthly_total": 13.87
+    },
+    {
+      "reference_number": "AA-eac14456",
+      "customer_name": "cayla smith",
+      "vehicle_registration": "hn12 adp",
+      "postcode": "RG24 8as",
+      "start_date": "2025-06-26T08:32:51.810482",
+      "created_by": 9,
+      "customer_user_id": null,
+      "created_at": "2025-06-26T08:32:51.810630",
+      "status": "pending",
+      "cover_type": "HomeStart",
+      "annual_total": 23.52,
+      "monthly_total": 1.99
+    }
+  ],
+  "xmls": [
+    {
+      "quote_id": 1,
+      "xml_type": "request",
+      "xml_content": "<GenerateQuoteRequest><RequestHeader><Version>2.0</Version><RequestDateTime>2025-06-26T09:29:39</RequestDateTime><Source><Domain>Sales</Domain><LineOfBusiness>ROS</LineOfBusiness></Source></RequestHeader><ProductList><PolicyStartDateTime>2025-06-26T08:29:39</PolicyStartDateTime><PolicyEndDateTime>2026-06-26T08:29:39</PolicyEndDateTime><Currency>GBP</Currency><Product><ProductCode>Roadside</ProductCode></Product><Product><ProductCode>HomeStart</ProductCode></Product><VehicleRegistrationNumber>rk71 wdp</VehicleRegistrationNumber><CoveredPersons>1</CoveredPersons></ProductList><CustomerDetails><DateOfBirth>2000-06-13</DateOfBirth><Postcode>RG24 8BH</Postcode></CustomerDetails></GenerateQuoteRequest>",
+      "timestamp": "2025-06-26T08:29:39.530656"
+    },
+    {
+      "quote_id": 1,
+      "xml_type": "response",
+      "xml_content": "<GenerateQuoteResponse><ResponseHeader><Version>2.0</Version><ResponseDateTime>2025-06-26T09:29:39</ResponseDateTime><Source><LineOfBusiness>ROS</LineOfBusiness><ApplicationVersion>1.3</ApplicationVersion></Source></ResponseHeader><CustomerQuoteReference>AA-f458ea3d</CustomerQuoteReference><ProductList><Payment><PaymentType>Annual</PaymentType><Currency>GBP</Currency><Product><ProductCode>Roadside</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>11.7</Commission><CommissionTax>1.4</CommissionTax><TaxTotal>1.4</TaxTotal><Total>13.1</Total></CorePrice><ArrangementFee><Fee>30.0</Fee><FeeTax>3.6</FeeTax><Total>33.6</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>33.6</ArrangementFeeTotal><TotalLessArrangementFeeTotal>13.1</TotalLessArrangementFeeTotal><TotalLessDiscounts>46.7</TotalLessDiscounts><Total>46.7</Total></Price></PriceList></Product><Product><ProductCode>HomeStart</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>5.4</Commission><CommissionTax>0.65</CommissionTax><TaxTotal>0.65</TaxTotal><Total>6.05</Total></CorePrice><ArrangementFee><Fee>15.0</Fee><FeeTax>1.8</FeeTax><Total>16.8</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>16.8</ArrangementFeeTotal><TotalLessArrangementFeeTotal>6.05</TotalLessArrangementFeeTotal><TotalLessDiscounts>22.85</TotalLessDiscounts><Total>22.85</Total></Price></PriceList></Product><TotalPriceBreakdown><Total>22.85</Total><TotalExcludingDiscounts>22.85</TotalExcludingDiscounts><DiscountTotal>0.0</DiscountTotal><TotalArrangementFee>16.8</TotalArrangementFee><TotalLessArrangementFees>6.05</TotalLessArrangementFees><TotalIPT>0.65</TotalIPT></TotalPriceBreakdown></Payment><Payment><PaymentType>Monthly</PaymentType><Currency>GBP</Currency><Product><ProductCode>Roadside</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>1.1550000000000002</Commission><CommissionTax>0.14</CommissionTax><TaxTotal>0.14</TaxTotal><Total>1.3</Total></CorePrice><ArrangementFee><Fee>2.5</Fee><FeeTax>0.3</FeeTax><Total>2.8</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>2.8</ArrangementFeeTotal><TotalLessArrangementFeeTotal>1.3</TotalLessArrangementFeeTotal><TotalLessDiscounts>4.1</TotalLessDiscounts><Total>4.1</Total></Price></PriceList></Product><Product><ProductCode>HomeStart</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>0.671</Commission><CommissionTax>0.08</CommissionTax><TaxTotal>0.08</TaxTotal><Total>0.75</Total></CorePrice><ArrangementFee><Fee>1.25</Fee><FeeTax>0.15</FeeTax><Total>1.4</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>1.4</ArrangementFeeTotal><TotalLessArrangementFeeTotal>0.75</TotalLessArrangementFeeTotal><TotalLessDiscounts>2.15</TotalLessDiscounts><Total>2.15</Total></Price></PriceList></Product><TotalPriceBreakdown><Total>2.15</Total><TotalExcludingDiscounts>2.15</TotalExcludingDiscounts><DiscountTotal>0.0</DiscountTotal><TotalArrangementFee>1.4</TotalArrangementFee><TotalLessArrangementFees>0.75</TotalLessArrangementFees><TotalIPT>0.08</TotalIPT></TotalPriceBreakdown></Payment></ProductList><QuoteExpiryDate>2025-07-03</QuoteExpiryDate></GenerateQuoteResponse>",
+      "timestamp": "2025-06-26T08:29:39.547889"
+    },
+    {
+      "quote_id": 2,
+      "xml_type": "request",
+      "xml_content": "<GenerateQuoteRequest><RequestHeader><Version>2.0</Version><RequestDateTime>2025-06-26T09:30:09</RequestDateTime><Source><Domain>Sales</Domain><LineOfBusiness>ROS</LineOfBusiness></Source></RequestHeader><ProductList><PolicyStartDateTime>2025-06-26T08:30:09</PolicyStartDateTime><PolicyEndDateTime>2026-06-26T08:30:09</PolicyEndDateTime><Currency>GBP</Currency><Product><ProductCode>Relay</ProductCode></Product><Product><ProductCode>PartsCover</ProductCode></Product><VehicleRegistrationNumber>rk11 rym</VehicleRegistrationNumber><CoveredPersons>1</CoveredPersons></ProductList><CustomerDetails><DateOfBirth>1976-06-22</DateOfBirth><Postcode>rg22 4re</Postcode></CustomerDetails></GenerateQuoteRequest>",
+      "timestamp": "2025-06-26T08:30:09.109647"
+    },
+    {
+      "quote_id": 2,
+      "xml_type": "response",
+      "xml_content": "<GenerateQuoteResponse><ResponseHeader><Version>2.0</Version><ResponseDateTime>2025-06-26T09:30:09</ResponseDateTime><Source><LineOfBusiness>ROS</LineOfBusiness><ApplicationVersion>1.3</ApplicationVersion></Source></ResponseHeader><CustomerQuoteReference>AA-f0b6980b</CustomerQuoteReference><ProductList><Payment><PaymentType>Annual</PaymentType><Currency>GBP</Currency><Product><ProductCode>Relay</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>8.2</Commission><CommissionTax>0.98</CommissionTax><TaxTotal>0.98</TaxTotal><Total>9.18</Total></CorePrice><ArrangementFee><Fee>20.0</Fee><FeeTax>2.4</FeeTax><Total>22.4</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>22.4</ArrangementFeeTotal><TotalLessArrangementFeeTotal>9.18</TotalLessArrangementFeeTotal><TotalLessDiscounts>31.58</TotalLessDiscounts><Total>31.58</Total></Price></PriceList></Product><Product><ProductCode>PartsCover</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>15.0</netrate><netrateTax>1.8</netrateTax><Commission>10.75</Commission><CommissionTax>1.29</CommissionTax><TaxTotal>3.09</TaxTotal><Total>28.84</Total></CorePrice><ArrangementFee><Fee>25.0</Fee><FeeTax>3.0</FeeTax><Total>28.0</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>28.0</ArrangementFeeTotal><TotalLessArrangementFeeTotal>28.84</TotalLessArrangementFeeTotal><TotalLessDiscounts>56.84</TotalLessDiscounts><Total>56.84</Total></Price></PriceList></Product><TotalPriceBreakdown><Total>56.84</Total><TotalExcludingDiscounts>56.84</TotalExcludingDiscounts><DiscountTotal>0.0</DiscountTotal><TotalArrangementFee>28.0</TotalArrangementFee><TotalLessArrangementFees>28.84</TotalLessArrangementFees><TotalIPT>3.09</TotalIPT></TotalPriceBreakdown></Payment><Payment><PaymentType>Monthly</PaymentType><Currency>GBP</Currency><Product><ProductCode>Relay</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>0.803</Commission><CommissionTax>0.1</CommissionTax><TaxTotal>0.1</TaxTotal><Total>0.9</Total></CorePrice><ArrangementFee><Fee>1.67</Fee><FeeTax>0.2</FeeTax><Total>1.87</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>1.87</ArrangementFeeTotal><TotalLessArrangementFeeTotal>0.9</TotalLessArrangementFeeTotal><TotalLessDiscounts>2.77</TotalLessDiscounts><Total>2.77</Total></Price></PriceList></Product><Product><ProductCode>PartsCover</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>1.25</netrate><netrateTax>0.15</netrateTax><Commission>0.8690000000000001</Commission><CommissionTax>0.1</CommissionTax><TaxTotal>0.25</TaxTotal><Total>2.37</Total></CorePrice><ArrangementFee><Fee>2.08</Fee><FeeTax>0.25</FeeTax><Total>2.33</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>2.33</ArrangementFeeTotal><TotalLessArrangementFeeTotal>2.37</TotalLessArrangementFeeTotal><TotalLessDiscounts>4.7</TotalLessDiscounts><Total>4.7</Total></Price></PriceList></Product><TotalPriceBreakdown><Total>4.7</Total><TotalExcludingDiscounts>4.7</TotalExcludingDiscounts><DiscountTotal>0.0</DiscountTotal><TotalArrangementFee>2.33</TotalArrangementFee><TotalLessArrangementFees>2.37</TotalLessArrangementFees><TotalIPT>0.25</TotalIPT></TotalPriceBreakdown></Payment></ProductList><QuoteExpiryDate>2025-07-03</QuoteExpiryDate></GenerateQuoteResponse>",
+      "timestamp": "2025-06-26T08:30:09.118369"
+    },
+    {
+      "quote_id": 3,
+      "xml_type": "request",
+      "xml_content": "<GenerateQuoteRequest><RequestHeader><Version>2.0</Version><RequestDateTime>2025-06-26T09:30:37</RequestDateTime><Source><Domain>Sales</Domain><LineOfBusiness>ROS</LineOfBusiness></Source></RequestHeader><ProductList><PolicyStartDateTime>2025-06-26T08:30:37</PolicyStartDateTime><PolicyEndDateTime>2026-06-26T08:30:37</PolicyEndDateTime><Currency>GBP</Currency><Product><ProductCode>Roadside</ProductCode></Product><VehicleRegistrationNumber>RE16 ZCN</VehicleRegistrationNumber><CoveredPersons>1</CoveredPersons></ProductList><CustomerDetails><DateOfBirth>1998-05-27</DateOfBirth><Postcode>rg21 4re</Postcode></CustomerDetails></GenerateQuoteRequest>",
+      "timestamp": "2025-06-26T08:30:37.260108"
+    },
+    {
+      "quote_id": 3,
+      "xml_type": "response",
+      "xml_content": "<GenerateQuoteResponse><ResponseHeader><Version>2.0</Version><ResponseDateTime>2025-06-26T09:30:37</ResponseDateTime><Source><LineOfBusiness>ROS</LineOfBusiness><ApplicationVersion>1.3</ApplicationVersion></Source></ResponseHeader><CustomerQuoteReference>AA-054e774a</CustomerQuoteReference><ProductList><Payment><PaymentType>Annual</PaymentType><Currency>GBP</Currency><Product><ProductCode>Roadside</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>10.8</Commission><CommissionTax>1.3</CommissionTax><TaxTotal>1.3</TaxTotal><Total>12.1</Total></CorePrice><ArrangementFee><Fee>30.0</Fee><FeeTax>3.6</FeeTax><Total>33.6</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>33.6</ArrangementFeeTotal><TotalLessArrangementFeeTotal>12.1</TotalLessArrangementFeeTotal><TotalLessDiscounts>45.7</TotalLessDiscounts><Total>45.7</Total></Price></PriceList></Product><TotalPriceBreakdown><Total>45.7</Total><TotalExcludingDiscounts>45.7</TotalExcludingDiscounts><DiscountTotal>0.0</DiscountTotal><TotalArrangementFee>33.6</TotalArrangementFee><TotalLessArrangementFees>12.1</TotalLessArrangementFees><TotalIPT>1.3</TotalIPT></TotalPriceBreakdown></Payment><Payment><PaymentType>Monthly</PaymentType><Currency>GBP</Currency><Product><ProductCode>Roadside</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>1.0120000000000002</Commission><CommissionTax>0.12</CommissionTax><TaxTotal>0.12</TaxTotal><Total>1.13</Total></CorePrice><ArrangementFee><Fee>2.5</Fee><FeeTax>0.3</FeeTax><Total>2.8</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>2.8</ArrangementFeeTotal><TotalLessArrangementFeeTotal>1.13</TotalLessArrangementFeeTotal><TotalLessDiscounts>3.93</TotalLessDiscounts><Total>3.93</Total></Price></PriceList></Product><TotalPriceBreakdown><Total>3.93</Total><TotalExcludingDiscounts>3.93</TotalExcludingDiscounts><DiscountTotal>0.0</DiscountTotal><TotalArrangementFee>2.8</TotalArrangementFee><TotalLessArrangementFees>1.13</TotalLessArrangementFees><TotalIPT>0.12</TotalIPT></TotalPriceBreakdown></Payment></ProductList><QuoteExpiryDate>2025-07-03</QuoteExpiryDate></GenerateQuoteResponse>",
+      "timestamp": "2025-06-26T08:30:37.267986"
+    },
+    {
+      "quote_id": 4,
+      "xml_type": "request",
+      "xml_content": "<GenerateQuoteRequest><RequestHeader><Version>2.0</Version><RequestDateTime>2025-06-26T09:32:09</RequestDateTime><Source><Domain>Sales</Domain><LineOfBusiness>ROS</LineOfBusiness></Source></RequestHeader><ProductList><PolicyStartDateTime>2025-06-26T08:32:09</PolicyStartDateTime><PolicyEndDateTime>2026-06-26T08:32:09</PolicyEndDateTime><Currency>GBP</Currency><Product><ProductCode>Roadside</ProductCode></Product><Product><ProductCode>Relay</ProductCode></Product><Product><ProductCode>HomeStart</ProductCode></Product><Product><ProductCode>PartsCover</ProductCode></Product><VehicleRegistrationNumber>dp11 bco</VehicleRegistrationNumber><CoveredPersons>1</CoveredPersons></ProductList><CustomerDetails><DateOfBirth>2003-01-09</DateOfBirth><Postcode>rg24 7as</Postcode></CustomerDetails></GenerateQuoteRequest>",
+      "timestamp": "2025-06-26T08:32:09.731266"
+    },
+    {
+      "quote_id": 4,
+      "xml_type": "response",
+      "xml_content": "<GenerateQuoteResponse><ResponseHeader><Version>2.0</Version><ResponseDateTime>2025-06-26T09:32:09</ResponseDateTime><Source><LineOfBusiness>ROS</LineOfBusiness><ApplicationVersion>1.3</ApplicationVersion></Source></ResponseHeader><CustomerQuoteReference>AA-64d74413</CustomerQuoteReference><ProductList><Payment><PaymentType>Annual</PaymentType><Currency>GBP</Currency><Product><ProductCode>Roadside</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>12.3</Commission><CommissionTax>1.48</CommissionTax><TaxTotal>1.48</TaxTotal><Total>13.78</Total></CorePrice><ArrangementFee><Fee>30.0</Fee><FeeTax>3.6</FeeTax><Total>33.6</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>33.6</ArrangementFeeTotal><TotalLessArrangementFeeTotal>13.78</TotalLessArrangementFeeTotal><TotalLessDiscounts>47.38</TotalLessDiscounts><Total>47.38</Total></Price></PriceList></Product><Product><ProductCode>Relay</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>9.0</Commission><CommissionTax>1.08</CommissionTax><TaxTotal>1.08</TaxTotal><Total>10.08</Total></CorePrice><ArrangementFee><Fee>20.0</Fee><FeeTax>2.4</FeeTax><Total>22.4</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>22.4</ArrangementFeeTotal><TotalLessArrangementFeeTotal>10.08</TotalLessArrangementFeeTotal><TotalLessDiscounts>32.48</TotalLessDiscounts><Total>32.48</Total></Price></PriceList></Product><Product><ProductCode>HomeStart</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>5.4</Commission><CommissionTax>0.65</CommissionTax><TaxTotal>0.65</TaxTotal><Total>6.05</Total></CorePrice><ArrangementFee><Fee>15.0</Fee><FeeTax>1.8</FeeTax><Total>16.8</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>16.8</ArrangementFeeTotal><TotalLessArrangementFeeTotal>6.05</TotalLessArrangementFeeTotal><TotalLessDiscounts>22.85</TotalLessDiscounts><Total>22.85</Total></Price></PriceList></Product><Product><ProductCode>PartsCover</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>15.0</netrate><netrateTax>1.8</netrateTax><Commission>10.0</Commission><CommissionTax>1.2</CommissionTax><TaxTotal>3.0</TaxTotal><Total>28.0</Total></CorePrice><ArrangementFee><Fee>25.0</Fee><FeeTax>3.0</FeeTax><Total>28.0</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>28.0</ArrangementFeeTotal><TotalLessArrangementFeeTotal>28.0</TotalLessArrangementFeeTotal><TotalLessDiscounts>56.0</TotalLessDiscounts><Total>56.0</Total></Price></PriceList></Product><TotalPriceBreakdown><Total>56.0</Total><TotalExcludingDiscounts>56.0</TotalExcludingDiscounts><DiscountTotal>0.0</DiscountTotal><TotalArrangementFee>28.0</TotalArrangementFee><TotalLessArrangementFees>28.0</TotalLessArrangementFees><TotalIPT>3.0</TotalIPT></TotalPriceBreakdown></Payment><Payment><PaymentType>Monthly</PaymentType><Currency>GBP</Currency><Product><ProductCode>Roadside</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>1.078</Commission><CommissionTax>0.13</CommissionTax><TaxTotal>0.13</TaxTotal><Total>1.21</Total></CorePrice><ArrangementFee><Fee>2.5</Fee><FeeTax>0.3</FeeTax><Total>2.8</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>2.8</ArrangementFeeTotal><TotalLessArrangementFeeTotal>1.21</TotalLessArrangementFeeTotal><TotalLessDiscounts>4.01</TotalLessDiscounts><Total>4.01</Total></Price></PriceList></Product><Product><ProductCode>Relay</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>0.8470000000000001</Commission><CommissionTax>0.1</CommissionTax><TaxTotal>0.1</TaxTotal><Total>0.95</Total></CorePrice><ArrangementFee><Fee>1.67</Fee><FeeTax>0.2</FeeTax><Total>1.87</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>1.87</ArrangementFeeTotal><TotalLessArrangementFeeTotal>0.95</TotalLessArrangementFeeTotal><TotalLessDiscounts>2.82</TotalLessDiscounts><Total>2.82</Total></Price></PriceList></Product><Product><ProductCode>HomeStart</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>0.638</Commission><CommissionTax>0.08</CommissionTax><TaxTotal>0.08</TaxTotal><Total>0.72</Total></CorePrice><ArrangementFee><Fee>1.25</Fee><FeeTax>0.15</FeeTax><Total>1.4</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>1.4</ArrangementFeeTotal><TotalLessArrangementFeeTotal>0.72</TotalLessArrangementFeeTotal><TotalLessDiscounts>2.12</TotalLessDiscounts><Total>2.12</Total></Price></PriceList></Product><Product><ProductCode>PartsCover</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>1.25</netrate><netrateTax>0.15</netrateTax><Commission>1.056</Commission><CommissionTax>0.13</CommissionTax><TaxTotal>0.28</TaxTotal><Total>2.59</Total></CorePrice><ArrangementFee><Fee>2.08</Fee><FeeTax>0.25</FeeTax><Total>2.33</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>2.33</ArrangementFeeTotal><TotalLessArrangementFeeTotal>2.59</TotalLessArrangementFeeTotal><TotalLessDiscounts>4.92</TotalLessDiscounts><Total>4.92</Total></Price></PriceList></Product><TotalPriceBreakdown><Total>4.92</Total><TotalExcludingDiscounts>4.92</TotalExcludingDiscounts><DiscountTotal>0.0</DiscountTotal><TotalArrangementFee>2.33</TotalArrangementFee><TotalLessArrangementFees>2.59</TotalLessArrangementFees><TotalIPT>0.28</TotalIPT></TotalPriceBreakdown></Payment></ProductList><QuoteExpiryDate>2025-07-03</QuoteExpiryDate></GenerateQuoteResponse>",
+      "timestamp": "2025-06-26T08:32:09.740627"
+    },
+    {
+      "quote_id": 5,
+      "xml_type": "request",
+      "xml_content": "<GenerateQuoteRequest><RequestHeader><Version>2.0</Version><RequestDateTime>2025-06-26T09:32:51</RequestDateTime><Source><Domain>Sales</Domain><LineOfBusiness>ROS</LineOfBusiness></Source></RequestHeader><ProductList><PolicyStartDateTime>2025-06-26T08:32:51</PolicyStartDateTime><PolicyEndDateTime>2026-06-26T08:32:51</PolicyEndDateTime><Currency>GBP</Currency><Product><ProductCode>HomeStart</ProductCode></Product><VehicleRegistrationNumber>hn12 adp</VehicleRegistrationNumber><CoveredPersons>1</CoveredPersons></ProductList><CustomerDetails><DateOfBirth>2001-06-09</DateOfBirth><Postcode>RG24 8as</Postcode></CustomerDetails></GenerateQuoteRequest>",
+      "timestamp": "2025-06-26T08:32:51.817946"
+    },
+    {
+      "quote_id": 5,
+      "xml_type": "response",
+      "xml_content": "<GenerateQuoteResponse><ResponseHeader><Version>2.0</Version><ResponseDateTime>2025-06-26T09:32:51</ResponseDateTime><Source><LineOfBusiness>ROS</LineOfBusiness><ApplicationVersion>1.3</ApplicationVersion></Source></ResponseHeader><CustomerQuoteReference>AA-eac14456</CustomerQuoteReference><ProductList><Payment><PaymentType>Annual</PaymentType><Currency>GBP</Currency><Product><ProductCode>HomeStart</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>6.0</Commission><CommissionTax>0.72</CommissionTax><TaxTotal>0.72</TaxTotal><Total>6.72</Total></CorePrice><ArrangementFee><Fee>15.0</Fee><FeeTax>1.8</FeeTax><Total>16.8</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>16.8</ArrangementFeeTotal><TotalLessArrangementFeeTotal>6.72</TotalLessArrangementFeeTotal><TotalLessDiscounts>23.52</TotalLessDiscounts><Total>23.52</Total></Price></PriceList></Product><TotalPriceBreakdown><Total>23.52</Total><TotalExcludingDiscounts>23.52</TotalExcludingDiscounts><DiscountTotal>0.0</DiscountTotal><TotalArrangementFee>16.8</TotalArrangementFee><TotalLessArrangementFees>6.72</TotalLessArrangementFees><TotalIPT>0.72</TotalIPT></TotalPriceBreakdown></Payment><Payment><PaymentType>Monthly</PaymentType><Currency>GBP</Currency><Product><ProductCode>HomeStart</ProductCode><PriceList><Price><PriceBreakdown><CorePrice><netrate>0.0</netrate><netrateTax>0.0</netrateTax><Commission>0.528</Commission><CommissionTax>0.06</CommissionTax><TaxTotal>0.06</TaxTotal><Total>0.59</Total></CorePrice><ArrangementFee><Fee>1.25</Fee><FeeTax>0.15</FeeTax><Total>1.4</Total></ArrangementFee></PriceBreakdown><ArrangementFeeTotal>1.4</ArrangementFeeTotal><TotalLessArrangementFeeTotal>0.59</TotalLessArrangementFeeTotal><TotalLessDiscounts>1.99</TotalLessDiscounts><Total>1.99</Total></Price></PriceList></Product><TotalPriceBreakdown><Total>1.99</Total><TotalExcludingDiscounts>1.99</TotalExcludingDiscounts><DiscountTotal>0.0</DiscountTotal><TotalArrangementFee>1.4</TotalArrangementFee><TotalLessArrangementFees>0.59</TotalLessArrangementFees><TotalIPT>0.06</TotalIPT></TotalPriceBreakdown></Payment></ProductList><QuoteExpiryDate>2025-07-03</QuoteExpiryDate></GenerateQuoteResponse>",
+      "timestamp": "2025-06-26T08:32:51.825043"
+    }
+  ],
+  "logs": [
+    {
+      "user_id": 1,
+      "quote_id": null,
+      "action": "registered",
+      "timestamp": "2025-06-25T10:36:05.589604",
+      "details": "User Admin1 registered with role admin"
+    },
+    {
+      "user_id": 2,
+      "quote_id": null,
+      "action": "registered",
+      "timestamp": "2025-06-26T08:25:15.879442",
+      "details": "User joe_blogs registered with role regular"
+    },
+    {
+      "user_id": 3,
+      "quote_id": null,
+      "action": "registered",
+      "timestamp": "2025-06-26T08:25:36.429905",
+      "details": "User bob123 registered with role regular"
+    },
+    {
+      "user_id": 4,
+      "quote_id": null,
+      "action": "registered",
+      "timestamp": "2025-06-26T08:26:02.540452",
+      "details": "User steve registered with role regular"
+    },
+    {
+      "user_id": 5,
+      "quote_id": null,
+      "action": "registered",
+      "timestamp": "2025-06-26T08:26:22.514177",
+      "details": "User admin2 registered with role admin"
+    },
+    {
+      "user_id": 6,
+      "quote_id": null,
+      "action": "registered",
+      "timestamp": "2025-06-26T08:27:26.016501",
+      "details": "User harry2 registered with role regular"
+    },
+    {
+      "user_id": 7,
+      "quote_id": null,
+      "action": "registered",
+      "timestamp": "2025-06-26T08:27:52.256186",
+      "details": "User clive202 registered with role regular"
+    },
+    {
+      "user_id": 8,
+      "quote_id": null,
+      "action": "registered",
+      "timestamp": "2025-06-26T08:29:06.287985",
+      "details": "User will registered with role admin"
+    },
+    {
+      "user_id": 8,
+      "quote_id": 1,
+      "action": "created",
+      "timestamp": "2025-06-26T08:29:39.548051",
+      "details": "created a new quote with reference number AA-f458ea3d"
+    },
+    {
+      "user_id": 8,
+      "quote_id": 1,
+      "action": "viewed",
+      "timestamp": "2025-06-26T08:29:39.580061",
+      "details": "Viewed quote summary for reference number AA-f458ea3d"
+    },
+    {
+      "user_id": 8,
+      "quote_id": 1,
+      "action": "accepted",
+      "timestamp": "2025-06-26T08:29:42.898125",
+      "details": "Quote AA-f458ea3d accepted by user 8"
+    },
+    {
+      "user_id": 8,
+      "quote_id": 1,
+      "action": "viewed",
+      "timestamp": "2025-06-26T08:29:42.934699",
+      "details": "Viewed quote summary for reference number AA-f458ea3d"
+    },
+    {
+      "user_id": 8,
+      "quote_id": 2,
+      "action": "created",
+      "timestamp": "2025-06-26T08:30:09.118522",
+      "details": "created a new quote with reference number AA-f0b6980b"
+    },
+    {
+      "user_id": 8,
+      "quote_id": 2,
+      "action": "viewed",
+      "timestamp": "2025-06-26T08:30:09.145417",
+      "details": "Viewed quote summary for reference number AA-f0b6980b"
+    },
+    {
+      "user_id": 8,
+      "quote_id": 3,
+      "action": "created",
+      "timestamp": "2025-06-26T08:30:37.268097",
+      "details": "created a new quote with reference number AA-054e774a"
+    },
+    {
+      "user_id": 8,
+      "quote_id": 3,
+      "action": "viewed",
+      "timestamp": "2025-06-26T08:30:37.294966",
+      "details": "Viewed quote summary for reference number AA-054e774a"
+    },
+    {
+      "user_id": 9,
+      "quote_id": null,
+      "action": "registered",
+      "timestamp": "2025-06-26T08:31:28.882569",
+      "details": "User cayla registered with role regular"
+    },
+    {
+      "user_id": 9,
+      "quote_id": 4,
+      "action": "created",
+      "timestamp": "2025-06-26T08:32:09.740850",
+      "details": "created a new quote with reference number AA-64d74413"
+    },
+    {
+      "user_id": 9,
+      "quote_id": 4,
+      "action": "viewed",
+      "timestamp": "2025-06-26T08:32:09.771183",
+      "details": "Viewed quote summary for reference number AA-64d74413"
+    },
+    {
+      "user_id": 9,
+      "quote_id": 5,
+      "action": "created",
+      "timestamp": "2025-06-26T08:32:51.825120",
+      "details": "created a new quote with reference number AA-eac14456"
+    },
+    {
+      "user_id": 9,
+      "quote_id": 5,
+      "action": "viewed",
+      "timestamp": "2025-06-26T08:32:51.859496",
+      "details": "Viewed quote summary for reference number AA-eac14456"
+    }
+  ]
+}

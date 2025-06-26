@@ -64,6 +64,6 @@ def prettify_xml(xml_string):
         pretty_xml = "\n".join([line for line in pretty_xml.split('\n') if line.strip()])
         return pretty_xml
     except Exception:
-        return xml_string  # fallback if xml isnt valid
+        return xml_string  # fallback if xml isn't valid
 
 
