@@ -29,44 +29,54 @@ A Flask-based web application for managing breakdown cover quotes, with robust b
 ## Setup Instructions
 
 1. **Clone the repository**
-   ```sh
-   git clone <your-repo-url>
-   cd level5course-main
+   ```powershell
+   git clone https://github.com/willdp16/local_software_course.git
+   cd local_software_course
    ```
 
-2. **Install dependencies**
-   ```sh
+2. **Set up Python Virtual Environment**
+   ```powershell
+   python -m venv venv
+   .\venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```powershell
    pip install -r requirements.txt
    ```
 
-3. **Configure environment variables**
+4. **Configure Database**
+   - Install PostgreSQL if not already installed
+   - Create a new database:
+     ```sql
+     CREATE DATABASE breakdown_app;
+     ```
    - Copy `.env.example` to `.env`:
-     ```sh
-     cp .env.example .env
+     ```powershell
+     copy .env.example .env
      ```
-   - Edit `.env` and set your local PostgreSQL credentials, e.g.:
-     ```
+   - Update `.env` with your database settings:
+     ```plaintext
      DATABASE_URL=postgresql://postgres:your_password@localhost:5432/breakdown_app
-     SECRET_KEY=your-secret-key-here
+     SECRET_KEY=generate-your-own-secret-key
      ```
 
-4. **Create the database tables**
-   ```sh
+5. **Initialize the Database**
+   ```powershell
    python create_tables.py
+   python seed_db.py  # Optional: adds sample data
    ```
 
-5. **(Optional) Seed the database with sample data**
-   ```sh
-   python seed_db.py
-   ```
-
-6. **Run the application**
-   ```sh
+6. **Run the Application**
+   ```powershell
    python run.py
    ```
 
-7. **Access the app**
-   Open your browser to [http://localhost:5000](http://localhost:5000)
+7. **Access the Application**
+   - Open your browser to [http://localhost:5000](http://localhost:5000)
+   - Default admin login (if using seed data):
+     - Username: `Admin1`
+     - Password: `adminpass`
 
 ## Usage
 - Register as a user or log in as an admin (see `seed_db.py` for default admin credentials).
@@ -93,5 +103,3 @@ A Flask-based web application for managing breakdown cover quotes, with robust b
 ## License
 MIT License
 
----
-For questions or contributions, please open an issue or pull request.
